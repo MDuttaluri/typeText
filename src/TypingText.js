@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import './styles.css';
 
-function TypingText({ lines, options }) {
+export function TypingText({ lines, options }) {
     const [items, setItems] = useState([])
     const [counter, setCounter] = useState(0)
     //const [intervals, setIntervals] = useState(options?.intervals || new Array(lines?.length + 1).fill(1000))
@@ -66,4 +66,3 @@ return (
 )
 }
 
-export default TypingText

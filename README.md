@@ -10,13 +10,13 @@ Usage
 
 ```
 
-import TypingText from './TypingText';
+import {TypingText} from 'typingtext';
 
 <div>
-            {
-                TypingText({
-                    lines: ["Hello!","This is typing text"], 
-                    options: {
+            
+                <TypingText
+                    lines = {["Hello!","This is typing text"]}, 
+                    options = {{
                         intervals: [1000,200],
                         pipeColor: "green",
                         pipeWidth: "5px",
@@ -25,14 +25,14 @@ import TypingText from './TypingText';
                         pipeAnimationLength: "0.8",
                         placement : "center",
                         userSelect : "all"
-                    }
-                })}
+                    }}
+                 />
         </div>
 
 ```
 
 ## Parameters
-TextTyping component takes two parameters. They are:
+TypingText component takes two parameters. They are:
 * Lines : Array : Takes plain strings or any JSX element.
 * Options : There are several options to customise the component. Accepted options are:
 	*  intervals : Array : Time allocated(in ms) for the corresponding index's line. Default value is 1000(ms).
