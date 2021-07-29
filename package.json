@@ -1,6 +1,6 @@
 {
   "name": "typingtext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add typing animation to any text or custom jsx elements.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
