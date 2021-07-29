@@ -2,6 +2,14 @@
 
 This is a simple component that utilises basic CSS and React.js to create typing like animation to the provided text or JSX element.
 
+# Example
+
+
+
+https://user-images.githubusercontent.com/47857213/127506186-353df58f-424a-403a-8f09-6c01fad4e7fd.mov
+
+
+
 # Installation
 
 `npm install typingtext`
