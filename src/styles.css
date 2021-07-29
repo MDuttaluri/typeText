@@ -1,0 +1,43 @@
+  .introDiv__itemsDiv{
+    display: grid;
+  }
+  .introDiv__item{
+    width:max-content;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .animText{
+    margin: 0;
+    text-align: start;
+    overflow: hidden;
+    width: min-content;
+  }
+  .noAnim{
+    animation: none;
+    border-right: none;
+  }
+  @keyframes animText {
+    from{
+      width: 0%;
+    }
+    to{
+      width:100%;
+    }
+  }
+  @keyframes animText--rev {
+    from{
+      width: 100%;
+    }
+    to{
+      width:0%;
+    }
+  }
+  @keyframes animText__cursor {
+    from{
+    }
+    to{
+      border-right-color: transparent;
+    }
+  }
